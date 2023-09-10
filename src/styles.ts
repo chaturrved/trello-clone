@@ -47,6 +47,7 @@ export const ColumnContainer = styled(DragPreviewContainer)`
 export const ColumnTitle = styled.div`
     padding: 6px 16px 12px;
     font-weight: bold;
+    overflow-wrap: break-word;
 `
 
 export const CardContainer = styled(DragPreviewContainer)`
@@ -57,6 +58,7 @@ export const CardContainer = styled(DragPreviewContainer)`
     max-width: 300px;
     border-radius: 3px;
     box-shadow: #091e4240 0px 1px 0px 0px;
+    overflow-wrap: break-word;
 `
 
 type AddItemButtonProps = {
